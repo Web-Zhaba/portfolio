@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa-Light.woff2'),
+    url ('fonts/Comfortaa-Light.woff');
+    font-wight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa-Regular.woff2'),
+    url ('fonts/Comfortaa-Regular.woff');
+    font-wight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa-Medium.woff2'),
+    url ('fonts/Comfortaa-Medium.woff');
+    font-wight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa-SemiBold.woff2'),
+    url ('fonts/Comfortaa-SemiBold.woff');
+    font-wight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa-Bold.woff2'),
+    url ('fonts/Comfortaa-Bold.woff');
+    font-wight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+h1 {
+    border-radius: 15px;
+    box-shadow: rgba(0, 128, 0, 0.452);
+    text-align: center;
+    margin: auto;
+    padding: 25px 20px 10px 20px;
+    width: 600px;
+    font-weight: 700;
+    height: 50px;
+    background-color: rgba(0, 128, 0, 0.363);
+}
+p {
+    font-weight: 300;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/background.jpg);
+    font-size: 16px;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 400;
+}
+img{
+    border-radius: 10px;
+    border: rgba(0, 128, 0, 0.452) 3px solid;
+    box-shadow: 10px rgba(0, 128, 0, 0.452);
+}
+hr {
+    border-radius: 15px;
+    border: 1px solid;
+}
+.imgcenter {
+    text-align: center;
+}
+.textcenter {
+    text-align: center;
+}
+nav {
+    width: 960px;
+    margin: 0 auto;
+}
+nav ul {
+    display: table;
+    margin: 0 auto;
+}
+nav li {
+    float:none;
+}
+html body {overflow: hidden;}
